@@ -15,7 +15,8 @@ AccessId = ""
 # Request Info
 httpVerb ='GET'
 # This gets a list of SDTs
-resourcePath = '/sdt/sdts'
+id = 'A_2'
+resourcePath = f'/sdt/sdts/{id}'
 data = ''
 
 # Construct URL
